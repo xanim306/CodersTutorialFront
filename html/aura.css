@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar {
+    /* background-color: aquamarine; */
+    padding: 16px 24px;
+    position: relative;
+    z-index: 9999;
+  }
+  .navbar .logo {
+    width: 88px;
+    height: 97px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    display: inline-block;
+    word-wrap: break-word;
+    color: #fff;
+  }
+  
+  .navbar .menu {
+    position: absolute;
+    right: 5%;
+    top: 10%;
+  }
+  
+  .navbar .menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .navbar .menu li a {
+    text-decoration: none;
+    align-items: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 75px;
+    color: #fff;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+  
+  .aura--content {
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .aura--content .back--img {
+    width: 100%;
+    height: 1200px;
+    background-image: url(../../../Files/2.jpg);
+    background-size: cover;
+  }
+  
+  .aura--content .head--text {
+    color: #fff;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .aura--content .head--text .main--head--text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 288px;
+    line-height: 70px;
+    /* or 24% */
+  
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+  .text--common {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 75px;
+  
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .text--2 {
+    position: absolute;
+    left: 25%;
+    top: -90%;
+    text-align: center;
+  }
+  
+  .text--1 {
+    position: absolute;
+    right: 20%;
+    top: 100%;
+    width: 100px;
+  }
+  
+  .back--texture {
+    background-color: black;
+    width: 100%;
+    height: 1200px;
+    opacity: 0.5;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }

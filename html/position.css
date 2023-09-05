@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* .container{
+    margin: 30px auto;
+    background-color:beige;
+    width: 600px;
+    height: 400px;
+    position: relative;
+} */
+/* .item-1{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.item-2{
+    width: 100px;
+    height: 100px;
+    background-color:lightblue;
+    /* position: absolute;
+    left: 30px; */
+/* }
+
+
+/* .text{
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
+    overflow:auto;
+
+} */
+/* nav{
+    position: relative;
+}
+.left{
+    position: absolute;
+    left: 20px;
+}
+.left  li{
+    display: inline-block;
+}
+.left ul li a{
+    margin-right: 20px;
+}
+.right{
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.right li{
+    display: inline-block;
+} */
+nav ul li{
+    display: inline-block;
+}
+nav{
+    position: relative;
+   color: white;
+    height: 70px;
+    width: 100%;
+    z-index: 9;
+}
+.navbar-left{
+    /* position: absolute;
+    left:45px;
+    top: 20px; */
+width: 30px;
+height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+nav ul{
+    position:absolute;
+    right: 45px;
+    top:20px ;
+}
+section img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+.container{
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
